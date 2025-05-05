@@ -15,7 +15,7 @@ function takeScreenshot() {
     if (error) {
       console.error(`Error taking screenshot: ${error.message}`);
     } else {
-      console.log(`Screenshot saved to ${filepath}`);
+//      console.log(`Screenshot saved to ${filepath}`);
     }
   });
 }
